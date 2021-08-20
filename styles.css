@@ -1,10 +1,12 @@
 body {
   background-color: rgba(187, 218, 166, 0.734);
+  margin: 0;
 }
 
 h1 {
   color:rgba(38, 72, 182, 0.753);
   font-family: 'Rampart One', cursive;
+  font-size: 50px;
   letter-spacing: 0.2cm;
   text-align: center;
 }
@@ -15,28 +17,28 @@ h2{
 
 li{
   font-style: italic;
-  font-size: 20;
+  font-size: 20px;
+}
+
+.presentation{
+  background-color: #f2f2f281;
 }
 
 .border-image{
-  border-radius: 41%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  padding: 60px 90px 60px 250px;
+  border-radius: 65% 35% 35% 65%;
+  max-width: 50%;
+  vertical-align: middle;
 }
 
-.resume{
-  line-height: 32px;
+.presentation p{
+  display: inline-block;
+  max-width: 50%;
   font-weight: 600;
-  text-align: center;
-  padding: 10px;
+  font-size: 20px;
+  text-align: justify;
 }
 
-.full-resume{
-  margin-top: 40px;
-  line-height: 20px;
-  text-align: center;
-}
 
 .trybeSite{
   font-weight: bold; 
@@ -49,26 +51,75 @@ li{
   text-decoration: none;
 }
 
+.instagram{
+  padding: 150px 50px;
+}
+
+.imageInstagram{
+  margin: 10px 650px;
+}
+
+.imageInstagram:hover{
+  background-color: rgb(233, 235, 224);
+}
+
+
+.instagram p{
+  font-size: 20px;
+  padding: 20px 50px;
+  text-align: center;
+}
+
 .fa, .fa-instagram, .linkInstagram{
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   color: rgb(133, 18, 162);
   text-decoration: none;
 }
 
-#chamadaInsta{
-  text-align: center;
-  font-weight: bold;
-}
 
 .linkInstagram{
   background-image: #F2F2F2 url(http://www.myprojectsite.com/images/social/instagram.png) no-repeat 0 0;
+}
+
+.aboutMe{
+  padding: 20px 40px;
+}
+
+.aboutMe p{
+  font-family: 'Klee One', cursive;
+  font-size: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.links{
+  font-size: 40px;
 }
 
 .links:hover{
   color: red;
 }
 
+
+.habilidades{
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  padding: 20px 5px ;
+  width: 48%;
+  background-color: #f2f2f281;
+}
+
+.outrasHabilidades{
+  float: right;
+  padding: 20px 5px;
+  width: 46%;
+}
+
+.impar{
+  background-color: rgba(168, 204, 168, 0.946);
+}
